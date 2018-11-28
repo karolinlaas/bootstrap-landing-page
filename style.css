@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+
+#navbar, #footer  {
+	background-color: #404040;
+}
+
+#navbar a {
+	color: white;
+}
+
+#navbar svg {
+	margin-right: 5px;
+	margin-bottom: 3px;
+	fill: white;
+}
+
+#nav-lingid a {
+	color: #404040;
+}
+
+.first-image {
+  background-image: url(esimene.jpg);
+  width: 100%;
+  height: 45vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: center; 
+  align-items: center;
+  display: flex;
+}
+
+.first-image h1 {
+  color: white;
+  text-shadow: 3px 3px 3px black;
+}
+
+#eelised, #paketid {
+  background-color: #e6e6e6;
+}
+
+#eelised img {
+  height: 45%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#carousel_main img {
+  width: 25px;
+  height: auto;
+}
+
+#carousel_next img {
+  width: 10px;
+  height: auto;
+  opacity: 0.5;
+  filter: blur(5px);
+}
+
+#telliButton {
+  letter-spacing: 2px;
+}
+
+.card-header {
+  height: 105px;
+}
+
+#svgDiv svg {
+  fill: white;
+}
+
+#kliendid img {
+  width: 200px;
+}
